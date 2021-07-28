@@ -79,7 +79,7 @@ function addToCart (book_array) {
       
 }
 
-fetch('https://github.com/joneajlukebibangco/web-dev-assesssment-joneajlukebibangco.git/books.json')
+fetch('https://joneajlukebibangco.github.io/web-dev-assesssment-joneajlukebibangco/books.json')
      .then(response => response.json())
      .then(data => {
           books.push(...data.books);
